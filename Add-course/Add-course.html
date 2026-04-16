@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UFT.8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> personal course organizer </title>
+    <meta name="description" content="inverst in your career goals - Achieve your 2026 career goals with coursaty" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <link rel="stylesheet" href="Add-Courses.css">
+    <nav class="navbar">
+        <div class="left-section">
+            <i class="fas fa-bars menu-icon"></i>
+            <span class="logo1"> PCO</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../Home_page/Home_Page.html">
+                    <h3>Home</h3>
+                </a></li>
+            <li><a href="../My-courses/my-courses.html">
+                    <h3>My Courses</h3>
+                </a></li>
+            <li><a href="../contact-us/contacy-us.html">
+                    <h3>Coctact Us</h3>
+                </a></li>
+        </ul>
+        <div class="right-section">
+            <i class="fas fa-bell"></i>
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Add Course</h1>
+        <p class="subtitle">Add details for new courses and manage educational content.</p>
+
+        <div class="filter-bar">
+            <div class="filter-container">
+
+                <div class="level-dropdown">
+                    <button class="dropdown-btn">
+                        Level: 1 <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+
+                <ul class="category-tabs">
+                    <li class="active">All</li>
+                    <li>General</li>
+                    <li>AI</li>
+                    <li>CS</li>
+                    <li>IS</li>
+                    <li>IT</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="courses">
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="card-image"></div>
+                    <h3>Algorithms</h3>
+                    <p><strong>Lecturer:</strong>Ahmed yasser</p>
+                    <p><strong>Course Hours:</strong>6</p>
+                </div>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="card-image"></div>
+                    <h3>Software</h3>
+                    <p><strong>Lecturer:</strong>Osama Muawad</p>
+                    <p><strong>Course Hours:</strong>5</p>
+                </div>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="card-image"></div>
+                    <h3>Statistics_2</h3>
+                    <p><strong>Lecturer:</strong>Jana Mohamed</p>
+                    <p><strong>Course Hours:</strong>4</p>
+                </div>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="card-image"></div>
+                    <h3>Signals</h3>
+                    <p><strong>Lecturer:</strong>Adham Amr</p>
+                    <p><strong>Course Hours:</strong>7</p>
+                </div>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="card-image"></div>
+                    <h3>OS_1</h3>
+                    <p><strong>Lecturer:</strong>Abdallah Mohamed</p>
+                    <p><strong>Course Hours:</strong>6</p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="form-section">
+            <h2>Add new course</h2>
+            <form id="courseForm">
+                <div class="form-group">
+                    <label>Course name:</label>
+                    <input type="text" placeholder="like: Front End Development" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Lecturer's name:</label>
+                    <input type="text" placeholder="Full lecturer's name" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Course hours:</label>
+                    <input type="number" placeholder="000" required>
+                </div>
+
+                <button type="submit" class="add-btn">Add Course</button>
+            </form>
+        </div>
+    </div>

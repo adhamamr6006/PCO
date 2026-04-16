@@ -1,0 +1,241 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    padding: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.left-section,
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-section i,
+.right-section i {
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.logo1 {
+    color: #0056d2;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #333;
+    text-decoration: solid;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2;
+}
+
+.nav-links li a:hover {
+    color: #0056d2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.user-greeting {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    background-color: #001e62;
+    color: white;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: #fff;
+    padding: 15px 25px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    border: 1px solid #e5e7eb;
+}
+
+.Add-course {
+    color: #0056d2;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.tabs {
+    border-bottom: 2px solid #e5e7eb;
+    margin-bottom: 25px;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #6b7280;
+    position: relative;
+}
+
+.tab-btn.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.tab-btn.active::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #0056d2;
+}
+
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    align-items: start;
+}
+
+.main-collumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.course-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e5e7eb;
+}
+
+.university {
+    font-size: 12px;
+    color: #6b7280;
+}
+
+.course-card h3 {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.lesson-info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f9fafb;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.start-btn {
+    background-color: #0056d2;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.start-btn:hover {
+    background-color: #003e9c;
+}
+
+/* السايد بار */
+.calendar-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    text-align: center;
+}
+
+.stats-lock {
+    padding: 40px 20px;
+    color: #6b7280;
+}
+
+.lock-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* التجاوب مع الموبايل */
+@media (max-width: 768px) {
+    .content-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .course-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .start-btn {
+        width: 100%;
+    }
+}
